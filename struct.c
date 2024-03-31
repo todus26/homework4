@@ -35,7 +35,7 @@ int main() {
     printf("st3.grade = %c\n", st3.grade); //구조체 변수의 멤버(st3.grade) 출력
 
     /* equality test */
-    //st3와 st2의 값이 같은지 비교 - 구조체 내의 성분들을 각각 비교해주어야 함
+    //st3와 st2의 값이 같은지 비교 - 구조체 내의 성분들을 각각 비교해주어야 함.
     if(st3.lastName == st2.lastName && st3.studentId == st2.studentId && st3.grade == st2.grade)
     printf("equal\n");
 else
